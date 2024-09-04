@@ -6,7 +6,8 @@ metadata:
     app: vprodb
 spec:
   selector:
-    app: vprodb
+    matchLabels:
+      app: vprodb
   replicas: 1
   template:
     metadata:
